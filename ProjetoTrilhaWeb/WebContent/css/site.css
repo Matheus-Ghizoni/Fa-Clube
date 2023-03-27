@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body{
+	margin: 0 auto;
+}
+/*********************************************
+			Configurações gerais
+*********************************************/
+/* Cabeçalho */
+header{
+	height: 170px;
+	background-color:#fb5a4f;
+	
+}
+header img{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+header h1{
+	float: center;
+    margin: 0 220px;
+    padding: 40px;
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+}
+nav{
+	clear: both;
+	width: 80%;
+	margin: 8px auto;
+	height: 55px;
+	font-weight: bold;
+}
+nav a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+nav .opcao{
+	float: left;
+	width: 31.3%;
+	background-color: #fc7165;
+	padding: 16px 0;
+	margin: 0 1%;
+	font-size: 32px
+}
+nav .opcao:hover{
+	background-color: #fa3929;
+}
+section{
+	clear:both;
+	min-height:384px;
+	width: 100%;
+	margin-top:0px;
+	
+}
+h2 {
+    padding: 20px 20px 0 20px;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+h3 {
+    padding: 4px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+.imghome{
+	float: center;
+	height: 320px;
+	width: 1349px;
+}
+.home{
+	margin: 30px 50px;
+	padding: 20px 20px 0 20px;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+}
+/* Tabela */
+.tabela{
+	margin: 36px auto;
+	text-align: center;
+}
+tr, td, th{
+	border: 2px groove black;
+	padding: 10px;
+}
+tr, td{
+	font-size:  14px;
+}
+.imgTabela{
+	height: 55px;
+	width: 241px;
+}
+
+
+/* Rodapé */
+footer{
+	background-color: #fb5a4f;
+	color: #000000;
+	text-align:center;
+	padding:10px;
+	
+}
+
+/************************************* 
+  Configuração da página fale conosco 
+*************************************/
+form{
+	margin: 32px;
+}
+.bloco{
+	text-align: center;
+	font-size: 18px;
+}
+.inscricao{
+	width: 650px;
+	margin: 10px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.inscricao textarea, .inscricao select{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+.inscricao #nome, .inscricao #email, .inscricao #telefone, .inscricao #nascimento{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+.inscricao textarea{
+	height: 100px;
+	resize: none;
+}
+.inscricao button{
+	width: 45%;
+	margin: 16px;
+	background-color: #fb5a4f;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+}

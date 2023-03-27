@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site das Armas de Valorant">
+<meta name="keywords" content="Valorant, Armas, Preço, Dano">
+<meta name="author" content="Escola Sistêmica">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arsenal Valorant</title>
+<link rel="stylesheet" type="text/css" href="../../css/site.css">
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="../../js/site.js"></script>
+</head>
+<body>
+	<header>
+	</header>
+	<nav>
+</nav>
+	<section>
+		<h2>Monte seu rank</h2>
+		<form name="crieseurank" action="" onsubmit="return validaForm()">
+			<fieldset class="inscricao">
+				<legend class="bloco">Dados Pessoais</legend>
+				<label for="nome">Nome: </label>
+				<input type="text" name="txtnome" id="nome" placeholder="Fulano da Silva">
+				<label for="email">E-mail: </label> 
+				<input type="email" name="txtemail" id="email" placeholder="abc123@abc.com">
+				<label for="telefone">Telefone: </label>
+				<input type="tel" name="txttelefone" id="telefone" placeholder="(XX)XXXXX-XXXX">
+				<label for="nascimento">Data de nascimento: </label>
+				<input type=date name="txtdate" id="nascimento">
+				<label>Gênero:</label>
+				<input type="radio" name="txtgenero" id="radio1">
+				<label for="radio1">Masculino</label>
+				<input type="radio" name="txtgenero" id="radio2">
+				<label for="radio2">Feminino</label>
+				<input type="radio" name="txtgenero" id="radio3">
+				<label for="radio3">NB</label>
+				<input type="radio" name="txtgenero" id="radio4">
+				<label for="radio4">Outros</label>
+			</fieldset>
+			<fieldset class="inscricao">
+				<legend class="bloco">Monte Seu Rank</legend>
+				<fieldset>
+					<legend>Vandal</legend>
+					<label for=vandal1>1°</label>
+					<input type="text" name="vandal1" id="vandal1" placeholder="mínimo 3 caracteres">
+					<label for=vandal2>2°</label>
+					<input type="text" name="vandal2" id="vandal2" placeholder="mínimo 3 caracteres">
+					<label for=vandal3>3°</label>
+					<input type="text" name="vandal3" id="vandal3" placeholder="mínimo 3 caracteres">
+				</fieldset>
+				<fieldset>
+					<legend>Phantom</legend>
+					<label for=phantom1>1°</label>
+					<input type="text" name="phantom1" id="phantom1" placeholder="mínimo 3 caracteres">
+					<label for=phantom2>2°</label>
+					<input type="text" name="phantom2" id="phantom2" placeholder="mínimo 3 caracteres">
+					<label for=phantom3>3°</label>
+					<input type="text" name="phantom3" id="phantom3" placeholder="mínimo 3 caracteres">
+				</fieldset>
+				<fieldset>
+					<legend>Operator</legend>
+					<label for=operator1>1°</label>
+					<input type="text" name="operator1" id="operator1" placeholder="mínimo 3 caracteres">
+					<label for=operator2>2°</label>
+					<input type="text" name="operator2" id="operator2" placeholder="mínimo 3 caracteres">
+					<label for=operator3>3°</label>
+					<input type="text" name="operator3" id="operator3" placeholder="mínimo 3 caracteres">
+				</fieldset>
+				<fieldset>
+					<legend>Sheriff</legend>
+					<label for=sheriff1>1°</label>
+					<input type="text" name="sheriff1" id="sheriff1" placeholder="mínimo 3 caracteres">
+					<label for=sheriff2>2°</label>
+					<input type="text" name="sheriff2" id="sheriff2" placeholder="mínimo 3 caracteres">
+					<label for=sheriff3>3°</label>
+					<input type="text" name="sheriff3" id="sheriff3" placeholder="mínimo 3 caracteres">
+				</fieldset>
+					<fieldset>
+					<legend>Melee</legend>
+					<label for=melee1>1°</label>
+					<input type="text" name="melee1" id="melee1" placeholder="mínimo 3 caracteres">
+					<label for=melee2>2°</label>
+					<input type="text" name="melee2" id="melee2" placeholder="mínimo 3 caracteres">
+					<label for=melee3>3°</label>
+					<input type="text" name="melee3" id="melee3" placeholder="mínimo 3 caracteres">
+				</fieldset>
+			</fieldset>
+			<fieldset class="inscricao">
+				<label for="comentario">Comentários</label>
+				<textarea name="txtcomentario" id="comentario"></textarea>
+				<input type="checkbox" name="fa" id="fa" onclick="ativar()">
+				<label for="fa">Você deseja participar do fã-clube?</label>
+				<br/>
+				<button type="reset">Limpar</button><button type="submit" id="envia" disabled>Enviar</button>
+			</fieldset>
+		</form>
+	
+	</section>
+	<footer></footer>
+</body>
+
+</html>
